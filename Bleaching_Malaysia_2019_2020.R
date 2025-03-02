@@ -7,7 +7,7 @@ library(dplyr) #for data manipulation
 library(ggplot2) #easy data visualization
 
 #set working directory and load input file
-setwd("C:/Users/Felix/Desktop/R")
+setwd('NA')
 data_raw <- read_excel("./Bleaching Data_Szereday et al. 2019-2020.xlsx") #raw data
 
 #adjust df: drop columns, readjust order and rename columns
